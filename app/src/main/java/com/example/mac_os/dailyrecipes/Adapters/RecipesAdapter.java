@@ -66,8 +66,8 @@ public class RecipesAdapter extends RecyclerView.Adapter<RecipesAdapter.RecipeVi
                 .error(android.R.drawable.sym_def_app_icon)
                 .into(holder.getMainImage);
         holder.recipeTitle.setText(recipes.get(position).getTilte());
-        holder.preparationDate.setText(recipes.get(position).getPreparationTime());
-        holder.recipeDescription.setText(recipes.get(position).getDescription());
+//        holder.preparationDate.setText(recipes.get(position).getPreparationTime());
+//        holder.recipeDescription.setText(recipes.get(position).getDescription());
         //holder.rating.setText(movies.get(position).getVoteAverage().toString());
     }
     @Override
