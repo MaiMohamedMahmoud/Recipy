@@ -3,6 +3,8 @@ package com.example.mac_os.dailyrecipes.Rest;
 import com.example.mac_os.dailyrecipes.Model.Recipe;
 import com.example.mac_os.dailyrecipes.Model.RecipesRespond;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -14,5 +16,5 @@ import retrofit2.http.Query;
 public interface RecipesApiService {
 
     @GET("bins/16nrpt")
-    Call<RecipesRespond> getRecipes();
+    Call<List<Recipe>> getRecipes();
 }
