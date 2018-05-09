@@ -10,7 +10,7 @@ import java.util.List;
  * Created by mac-os on 4/21/18.
  */
 
-public class Recipe
+public class  Recipe
 {
     @SerializedName("title")
     private String tilte;

@@ -25,9 +25,24 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * this url for category array that contain array of recipes
+     * https://api.myjson.com/bins/1gu6ea
+     */
+
+    /**
+     * this url only contain 7 data for the initial test
+     * https://api.myjson.com/bins/16nrpt
+     */
+
+    /**
+     * this url contain more data that contain variaty category
+     *https://api.myjson.com/bins/hh12a
+     */
 
     private static final String TAG = MainActivity.class.getSimpleName();
     public static final String BASE_URL = "https://api.myjson.com/";
+
     private static Retrofit retrofit = null;
     private RecyclerView recyclerView = null;
     List<Recipe> recipes;

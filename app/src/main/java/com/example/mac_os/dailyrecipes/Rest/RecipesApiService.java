@@ -14,7 +14,6 @@ import retrofit2.http.Query;
  */
 
 public interface RecipesApiService {
-
-    @GET("bins/16nrpt")
+    @GET("bins/hh12a")
     Call<List<Recipe>> getRecipes();
 }
