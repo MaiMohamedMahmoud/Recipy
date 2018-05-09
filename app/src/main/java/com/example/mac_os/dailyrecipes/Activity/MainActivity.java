@@ -9,7 +9,6 @@ import android.util.Log;
 import com.example.mac_os.dailyrecipes.Adapters.RecipesAdapter;
 import com.example.mac_os.dailyrecipes.Model.MyDeserializer;
 import com.example.mac_os.dailyrecipes.Model.Recipe;
-import com.example.mac_os.dailyrecipes.Model.RecipesRespond;
 import com.example.mac_os.dailyrecipes.R;
 import com.example.mac_os.dailyrecipes.Rest.RecipesApiService;
 import com.google.gson.Gson;

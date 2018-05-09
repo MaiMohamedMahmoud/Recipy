@@ -8,14 +8,25 @@ import java.util.List;
  * Created by mac-os on 4/21/18.
  */
 
-public class RecipesRespond {
+public class Category {
+
+    @SerializedName("name")
+    private String name;
 
     @SerializedName("recipes")
     private List<Recipe> recipes;
 
-    public RecipesRespond(List<Recipe> recipes) {
-
+    public Category(String name, List<Recipe> recipes) {
+        this.name= name;
         this.recipes = recipes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public List<Recipe> getResults() {
